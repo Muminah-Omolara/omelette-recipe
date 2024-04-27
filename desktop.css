@@ -113,5 +113,8 @@ li span {
     img{
         border-radius: 0px;
     }
+    .attribution{
+        color: white;
+    }
 }
 
