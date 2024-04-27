@@ -1,0 +1,117 @@
+body {
+    background-color:hsl(30, 54%, 90%);
+    max-width: 1440px;
+}
+.all-recipe {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    background-color: white;
+    border: 30px solid white;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+img {
+    width: 100%;
+}
+#preparation {
+    background-color:hsl(330, 100%, 98%);
+    padding: 10px;
+    
+}
+.p1 {
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+h1 {
+    font-family:"Young Serif", serif;
+    font-weight: 400;
+     color: hsl(24, 5%, 18%)
+}
+h2 {
+    font-family:"Young Serif", serif;
+    font-weight: 400;
+    color:hsl(14, 45%, 36%);
+}
+h4 {
+    color: hsl(332, 51%, 32%)
+}
+.others {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400, 600, 700;
+}
+li {
+    color: hsl(14, 45%, 36%);
+    padding: 15px;
+}
+
+.value {
+    color: hsl(14, 45%, 36%);
+    font-weight:800;
+}
+.p2, .p3{
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+}
+
+.nutrition {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+}
+.SP1 {
+    color: hsl(30, 10%, 34%);
+    font-weight: 600;
+}
+.SP2 {
+    color: hsl(30, 10%, 34%)
+}
+img {
+    border-radius: 10px ;
+}
+li {
+    color: hsl(14, 45%, 36%);
+}
+li span {
+    color: hsl(30, 10%, 34%)
+}
+.preparation{
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 375px){
+    .nutrition{
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    body {
+        background-color: black;
+    }
+    .all-recipe {
+        width: 50%;
+        margin-left: 35%;
+        padding-bottom: 20px;
+        background-color: white;
+        max-width: 400px;
+        border-radius: 0px;
+    }
+    img{
+        border-radius: 0px;
+    }
+}
+
